@@ -1,9 +1,12 @@
-
+import Test from './demo.jsx'
 
 function App() {
 
   return (
-    <h1>Hello vite React JS</h1>
+    <>
+      <Test />
+      <h1>Hello React</h1>
+    </>
   )
 }
 
