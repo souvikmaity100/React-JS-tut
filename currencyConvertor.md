@@ -7,11 +7,11 @@ let url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currenc
 
 ```
 
-## input box
+## input component with tailwind classes
 
 ```javascript
 
-function InputBox({
+function Input({
     label,
     
     className = "",
@@ -48,12 +48,12 @@ function InputBox({
     );
 }
 
-export default InputBox;
+export default Input;
 
 ```
 
 
-## app js
+## app js with tailwind classes
 
 ```javascript
 function App() {
