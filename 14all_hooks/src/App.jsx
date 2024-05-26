@@ -4,8 +4,10 @@
 // import UseEffect from "./hooks/useEffect_hook/UseEffect"
 // import Cleanup from "./hooks/useEffect_hook/Cleanup"
 
-import Parent from "./Parent"
-import { AppProvider } from "./hooks/useContext_hook/userContext"
+// import Parent from "./Parent"
+// import { AppProvider } from "./hooks/useContext_hook/userContext"
+
+import UseReducer from "./hooks/useReducer_hook/UseReducer"
 
 function App() {
 
@@ -17,9 +19,11 @@ function App() {
     {/* <UseEffect/> */}
     {/* <Cleanup/> */}
 
-    <AppProvider>
+    {/* <AppProvider>
     <Parent />
-    </AppProvider>
+    </AppProvider> */}
+
+    <UseReducer/>
     </>
   )
 }
