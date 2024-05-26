@@ -2,7 +2,10 @@
 // import RegisterForm from "./hooks/useState_hook/RegisterForm"
 
 // import UseEffect from "./hooks/useEffect_hook/UseEffect"
-import Cleanup from "./hooks/useEffect_hook/Cleanup"
+// import Cleanup from "./hooks/useEffect_hook/Cleanup"
+
+import Parent from "./Parent"
+import { AppProvider } from "./hooks/useContext_hook/userContext"
 
 function App() {
 
@@ -12,7 +15,11 @@ function App() {
     {/* <RegisterForm/> */}
 
     {/* <UseEffect/> */}
-    <Cleanup/>
+    {/* <Cleanup/> */}
+
+    <AppProvider>
+    <Parent />
+    </AppProvider>
     </>
   )
 }
